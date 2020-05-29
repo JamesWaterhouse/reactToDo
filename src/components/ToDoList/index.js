@@ -1,7 +1,7 @@
 import React from 'react';
-import {ToDoTitle} from './ToDoTitle';
-import {ToDoList} from './ToDoList';
-import {AddToDo} from './AddToDo';
+import {ToDoTitle} from '../ToDoTitle';
+import {ToDoList} from '../ToDoTaskList';
+import {AddToDo} from '../ToDoAdd';
 
 export class ToDos extends React.Component {
 

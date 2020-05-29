@@ -1,7 +1,7 @@
 import React from 'react';
-import {ToDoneTitle} from './ToDoneTitle';
-import {ToDoneList} from './ToDoneList';
-import {DeleteDone} from './ToDoneDeleteButton'
+import {ToDoneTitle} from '../ToDoneTitle';
+import {ToDoneList} from '../ToDoneTaskList';
+import {DeleteDone} from '../ToDoneDeleteButton'
 
 
 export class ToDones extends React.Component {
