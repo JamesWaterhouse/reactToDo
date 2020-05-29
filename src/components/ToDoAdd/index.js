@@ -9,7 +9,6 @@ export class AddToDo extends React.Component {
     }
 
     handleClick = (event) => {
-        console.log(this.task.current.value)
         fetch(Api + '/addTask/' + this.task.current.value, {
                 method: 'POST',
                 headers: {
@@ -18,7 +17,6 @@ export class AddToDo extends React.Component {
         })
         .then(response => response.json())
         .then(data => {
-            console.log('Success:', data.status);
             window.location.reload()
         })
     } 
